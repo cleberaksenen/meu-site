@@ -283,13 +283,6 @@ input, select, textarea {
 			margin: 3em 0;
 		}
 	
-	.name {
-			color: #ffffff; /* Cor padrão para o texto */
-		  }
-		  
-	.blue-text {
-			color: #4ebcff; /* Cor azul para o texto */
-		  }
 
 	.align-left {
 		text-align: left;
@@ -3510,6 +3503,13 @@ input, select, textarea {
 				opacity: 0.75;
 			}
 
+			.name {color: #ffffff; /* Cor padrão para o texto */
+			}
+		  
+			.blue-text {color: #4ebcff; /* Cor azul para o texto */
+			}
+
+
 		#banner.style1:after {
 			background-color: #6fc3df;
 		}
@@ -3969,4 +3969,14 @@ input, select, textarea {
 			transform: none;
 			opacity: 1;
 			visibility: visible;
+		}
+
+		.image-artigos {
+			width: 800px; /* Ajuste a largura conforme necessário */
+			height: auto; /* Mantém a proporção da imagem */
+		  }
+
+		.image-congress {
+			width: 800px; /* Ajuste a largura conforme necessário */
+			height: auto; /* Mantém a proporção da imagem */
 		}
