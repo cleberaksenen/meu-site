@@ -298,13 +298,13 @@ input, select, textarea {
 
 	.avatar-image {
 		float: left;
-		width: 600px; /* Ajuste a largura conforme necessário */
+		width: 500px; /* Ajuste a largura conforme necessário */
   		height: auto; /* Mantém a proporção da imagem */
 	}
 
 	.fiocruz-image {
 		float: left;
-		width: 700px; /* Ajuste a largura conforme necessário */
+		width: 500px; /* Ajuste a largura conforme necessário */
   		height: auto; /* Mantém a proporção da imagem */
 	}
 
@@ -3979,4 +3979,9 @@ input, select, textarea {
 		.image-congress {
 			width: 800px; /* Ajuste a largura conforme necessário */
 			height: auto; /* Mantém a proporção da imagem */
+		}
+
+		.image-pic10 {
+			width: auto; 
+			height: 2500px; 
 		}
