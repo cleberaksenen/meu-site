@@ -3987,7 +3987,53 @@ input, select, textarea {
 			height: auto; /* Mantém a proporção da imagem */
 		}
 
+		.image-medtrop2022{
+			width: 1200px; /* Ajuste a largura conforme necessário */
+			height: auto; /* Mantém a proporção da imagem */
+		}
+
 		.image-pic10 {
 			width: auto; 
 			height: 2500px; 
 		}
+		.flex-container {
+			display: flex;
+			align-items: center;
+		}
+		
+		.image-container {
+			flex: 1;
+			margin-right: 20px; /* Adicione um espaçamento à direita da imagem */
+		}
+		
+		.text-container {
+			flex: 2;
+			margin-right: 20px; /* Adicione um espaçamento à direita do texto */
+		}
+		
+		.image-zoom img {
+			transition: transform 0.3s ease;
+		}
+		
+		.image-zoom img:hover {
+			transform: scale(1.1);
+		}
+		
+		.divider-minor {
+			border-top: 5px dashed white;
+			margin: 20px 0;
+			width: 180%; /* Ajuste o valor da largura conforme necessário */
+		}
+
+		.divider-major {
+			border-top: 5px solid white;
+			margin: 20px 0;
+			width: 180%; /* Ajuste o valor da largura conforme necessário */
+		}
+
+		.marker::before {
+			content: "\2022"; /* Código Unicode do marcador (ponto preto) */
+			margin-right: 5px; /* Espaçamento entre o marcador e o texto */
+			color: #05ffa1; /* Cor do marcador */
+		}
+		
